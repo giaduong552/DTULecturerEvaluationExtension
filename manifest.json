@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "GIA 3.0 - Đăng Nhập Nhanh",
+  "version": "3.0",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://mydtu.duytan.edu.vn/*",
+    "https://generativelanguage.googleapis.com/*"
+  ]
+}
